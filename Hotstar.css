@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient(120deg, rgb(39, 103, 131),rgb(4, 104, 143),rgb(62, 11, 110),rgb(124, 13, 50));
+}
+
+body h1{
+    color: white;
+    font-size: 179px;
+    position: fixed;
+    top: 210px;
+    left: 357px;
+}
+
+body >a{
+    text-decoration: none;
+    position: fixed;
+    top: 530px;
+    left: 800px;
+    color: white;
+}
+
+.navbar{
+    width: 100px;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 540px;
+    z-index: 9;
+    display: flex;
+    align-self: center;
+    padding: 0,4%;
+}
+
+.brand-logo{
+    height: 470px;
+}
